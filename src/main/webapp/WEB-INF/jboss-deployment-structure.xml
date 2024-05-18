@@ -1,0 +1,12 @@
+<jboss-deployment-structure>
+    <deployment>
+        <dependencies>
+            <module name="com.h2database.h2"/>
+            <module name="com.oracle.jdbc"/>
+            <module name="org.codehaus.jackson.jackson-core-asl"/>
+            <module name="org.codehaus.jackson.jackson-mapper-asl"/>
+            <module name="org.slf4j"/>
+            <module name="org.apache.xerces" export="true"/>
+        </dependencies>
+    </deployment>
+</jboss-deployment-structure>
