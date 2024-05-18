@@ -397,51 +397,11 @@
             </activation>
         </profile>
         <profile>
-            <id>idn</id>
+            <id>nic</id>
             <properties>
-                <database.schema>ptssvnic</database.schema>
-                <database.datasource>nic-ptssvnic_ds</database.datasource>
+                <database.schema>nic</database.schema>
+                <database.datasource>nic_ds</database.datasource>
                 <application.name>${application.unique.name}050</application.name>
-            </properties>
-        </profile>
-        <profile>
-            <id>pak</id>
-            <properties>
-                <database.schema>lofcnic</database.schema>
-                <database.datasource>nic-lofcnic_ds</database.datasource>
-                <application.name>${application.unique.name}051</application.name>
-            </properties>
-        </profile>
-        <profile>
-            <id>phl</id>
-            <properties>
-                <database.schema>lofcnic</database.schema>
-                <database.datasource>nic-lofcnic_ds</database.datasource>
-                <application.name>${application.unique.name}052</application.name>
-            </properties>
-        </profile>
-        <profile>
-            <id>zmb</id>
-            <properties>
-                <database.schema>lofcnic</database.schema>
-                <database.datasource>nic-lofcnic_ds</database.datasource>
-                <application.name>${application.unique.name}053</application.name>
-            </properties>
-        </profile>
-        <profile>
-            <id>mwi</id>
-            <properties>
-                <database.schema>lofcnic</database.schema>
-                <database.datasource>nic-lofcnic_ds</database.datasource>
-                <application.name>${application.unique.name}054</application.name>
-            </properties>
-        </profile>
-        <profile>
-            <id>ken</id>
-            <properties>
-                <database.schema>lofcnic</database.schema>
-                <database.datasource>nic-lofcnic_ds</database.datasource>
-                <application.name>${application.unique.name}055</application.name>
             </properties>
         </profile>
 
